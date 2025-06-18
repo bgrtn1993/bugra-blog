@@ -5,7 +5,7 @@ import ExperienceCard from '../components/ExperienceCard';
 import { useLanguage } from '../context/LanguageContext';
 
 const ExperiencePage = () => {
-    const { t } = useLanguage(); // Dil bağlamını kullan
+    const { t } = useLanguage();
     const experiences = t('experiencePage.experiences');
 
     return (

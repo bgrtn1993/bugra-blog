@@ -6,7 +6,6 @@ const LanguageContext = createContext();
 export const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState('tr');
 
-    // Mevcut dile göre çevrilmiş metinleri döndürür
     const t = (keyPath) => {
         const keys = keyPath.split('.');
         let text = localization[language];
