@@ -223,55 +223,55 @@ const localization = {
             designBy: "React ve Tailwind CSS ile Sevgiyle Tasarlandı",
         }
     },
-    en:{
-        "header": {
-            "name": "Buğra Tuna",
-            "home": "Home",
-            "about": "About",
-            "experience": "Experience",
-            "projects": "Projects",
-            "skills": "Skills",
-            "contact": "Contact",
-            "blog": "Blog",
-            "mobileMenu": {
-                "close": "Close"
+    en: {
+        header: {
+            name: "Buğra Tuna",
+            home: "Home",
+            about: "About",
+            experience: "Experience",
+            projects: "Projects",
+            skills: "Skills",
+            contact: "Contact",
+            blog: "Blog",
+            mobileMenu: {
+                close: "Close"
             }
         },
-        "homePage": {
-            "greeting": "Hello, I'm",
-            "title": "Buğra Tuna",
-            "subtitle": "A Full Stack Developer passionate about creating creative and efficient web experiences. I love solving complex problems with elegant and scalable code.",
-            "contactButton": "Contact Me",
-            "projectsButton": "View My Projects",
-            "profileImageAlt": "Buğra Tuna Profile Picture"
+        homePage: {
+            greeting: "Hello, I'm",
+            title: "Buğra Tuna",
+            subtitle: "A Full Stack Developer passionate about creating creative and efficient web experiences. I love solving complex problems with elegant and scalable code.",
+            contactButton: "Contact Me",
+            projectsButton: "View My Projects",
+            profileImageAlt: "Buğra Tuna Profile Picture"
         },
-        "aboutPage": {
-            "title": "About Me",
-            "paragraph1": "Hello! I'm Buğra Tuna. I'm a software developer based in Antalya, passionately dedicated to the dynamic world of web development. I graduated from Selçuk University with a degree in Computer Engineering, and since then, I've been developing projects using frontend and backend technologies for over 7 years.",
-            "paragraph2": "I enjoy building user-friendly interfaces and robust backend systems using modern technologies like Angular, React, Node.js, and .Net Core. I'm always eager to learn and improve myself. Discovering new technologies and integrating them into my projects excites me.",
-            "paragraph3": "Beyond coding, I believe in the importance of well-designed user experiences and scalable architectures. In my free time, I experiment with new algorithms and enjoy activities like hiking and swimming.",
-            "imageAlt": "About Me Image"
+        aboutPage: {
+            title: "About Me",
+            paragraph1: "Hello! I'm Buğra Tuna. I'm a software developer based in Antalya, passionately dedicated to the dynamic world of web development. I graduated from Selçuk University with a degree in Computer Engineering, and since then, I've been developing projects using frontend and backend technologies for over 7 years.",
+            paragraph2: "I enjoy building user-friendly interfaces and robust backend systems using modern technologies like Angular, React, Node.js, and .Net Core. I'm always eager to learn and improve myself. Discovering new technologies and integrating them into my projects excites me.",
+            paragraph3: "Beyond coding, I believe in the importance of well-designed user experiences and scalable architectures. In my free time, I experiment with new algorithms and enjoy activities like hiking and swimming.",
+            imageAlt: "About Me Image"
         },
-        "experiencePage": {
-            "title": "My Experiences",
-            "experiences": [
+        experiencePage: {
+            title: "My Experiences",
+            experiences: [
                 {
-                    "position": "Senior Software Developer",
-                    "company": "Freelancer",
-                    "duration": "January 2025 - April 2025",
-                    "description": [
+                    position: "Senior Software Developer",
+                    company: "Freelancer",
+                    duration: "January 2025 - April 2025",
+                    description: [
                         "Developed a custom project for a company's accounting department as a freelancer.",
                         "Built the core of the project using React, creating a modern and interactive structure.",
                         "Used Tailwind CSS for interface design, ensuring fast and flexible development.",
                         "My goal was to provide a user-friendly tool that streamlines accounting processes."
                     ],
-                    "technologies": ["React.js", "Tailwindcss", "Redux", "SQL"]
+                    technologies: ["React.js", "Tailwindcss", "Redux", "SQL"]
                 },
                 {
-                    "position": "Senior Software Developer",
-                    "company": "Arde Yazılım and Demirtag Consulting (GER)",
-                    "duration": "January 2024 - January 2025",
-                    "description": [
+                    position: "Senior Software Developer",
+                    company: "Arde Yazılım and Demirtag Consulting (GER)",
+                    duration: "January 2024 - January 2025",
+                    description: [
                         "Led the entire software development process for the Eonus (Electric Vehicle Management) project.",
                         "Designed a modular and API-based infrastructure by selecting appropriate technologies.",
                         "Managed full-stack development for the DodoJobs (Job Search Platform) project.",
@@ -280,13 +280,13 @@ const localization = {
                         "Enhanced software efficiency by working in synergy with electric charging units.",
                         "Collaborated with cross-functional teams to implement continuous improvement."
                     ],
-                    "technologies": ["Angular", ".Net Core", "WebSocket", "AG-Grid", "MongoDB", "Bootstrap", "Deno.js", "Node.js"]
+                    technologies: ["Angular", ".Net Core", "WebSocket", "AG-Grid", "MongoDB", "Bootstrap", "Deno.js", "Node.js"]
                 },
                 {
-                    "position": "Frontend Developer",
-                    "company": "Auxilius (USA)",
-                    "duration": "October 2021 - August 2023",
-                    "description": [
+                    position: "Frontend Developer",
+                    company: "Auxilius (USA)",
+                    duration: "October 2021 - August 2023",
+                    description: [
                         "Developed user-centric design strategies in an Agile environment.",
                         "Played a guiding role in helping the team achieve its goals.",
                         "Developed a data-driven software platform for biotechnology companies.",
@@ -296,25 +296,25 @@ const localization = {
                         "Used the AG-Grid library for managing dynamic data tables.",
                         "Optimized data exchange using GraphQL to improve performance."
                     ],
-                    "technologies": ["Angular", "Tailwindcss", "AG-Grid", "GraphQL", "Chart.js"]
+                    technologies: ["Angular", "Tailwindcss", "AG-Grid", "GraphQL", "Chart.js"]
                 },
                 {
-                    "position": "Senior Frontend Developer",
-                    "company": "Freelancer",
-                    "duration": "October 2023 - November 2023",
-                    "description": [
+                    position: "Senior Frontend Developer",
+                    company: "Freelancer",
+                    duration: "October 2023 - November 2023",
+                    description: [
                         "Developed a custom e-commerce website for a real estate consultancy firm.",
                         "Designed a panel for firm officials to easily manage their listings.",
                         "This panel simplified content addition, editing, and deletion.",
                         "Implemented a visually appealing and responsive design compatible with all devices."
                     ],
-                    "technologies": ["Next.js", "Tailwindcss", "Redux", "Chakra-UI"]
+                    technologies: ["Next.js", "Tailwindcss", "Redux", "Chakra-UI"]
                 },
                 {
-                    "position": "Frontend Developer",
-                    "company": "ERS Yazılım",
-                    "duration": "April 2021 - August 2023",
-                    "description": [
+                    position: "Frontend Developer",
+                    company: "ERS Yazılım",
+                    duration: "April 2021 - August 2023",
+                    description: [
                         "Worked on a travel portal project within a company under Talya Bilişim.",
                         "Developed a system that optimizes hotel, flight, and car rental options.",
                         "Created personalized travel packages with dynamic packaging algorithms.",
@@ -323,13 +323,13 @@ const localization = {
                         "My goal was to provide a single platform that simplifies travel planning.",
                         "Ensured all services worked seamlessly from a single point."
                     ],
-                    "technologies": ["Vue.js", "Angular", "Asp Net"]
+                    technologies: ["Vue.js", "Angular", "Asp Net"]
                 },
                 {
-                    "position": "Software Developer",
-                    "company": "Talya Bilişim",
-                    "duration": "January 2019 - August 2023",
-                    "description": [
+                    position: "Software Developer",
+                    company: "Talya Bilişim",
+                    duration: "January 2019 - August 2023",
+                    description: [
                         "Actively participated in the development of in-house web applications.",
                         "Created solutions to increase operational efficiency and digitize workflows.",
                         "Directly contributed to internal efficiency through these projects.",
@@ -338,113 +338,113 @@ const localization = {
                         "Created user-friendly interfaces by following modern design trends.",
                         "Supported the team in achieving its goals and advancing the project."
                     ],
-                    "technologies": ["Angular", ".Net", "HTML", "CSS", "JavaScript", "SQL", "Node.js"]
+                    technologies: ["Angular", ".Net", "HTML", "CSS", "JavaScript", "SQL", "Node.js"]
                 }
             ]
         },
-        "projectsPage": {
-            "title": "My Projects",
-            "projectCards": [
+        projectsPage: {
+            title: "My Projects",
+            projectCards: [
                 {
-                    "title": "E-Onus Back-Office Application",
-                    "description": "Enables charging station companies to remotely manage their stations. Users can easily charge their vehicles by making appointments, thereby optimizing operations and increasing customer satisfaction.",
-                    "technologies": ["Angular", "Node.js", "Tailwindcss", "MongoDB", "Stripe API", ".Net Core", "Deno.js", "Ag-Grid", "Chart.js"],
-                    "image": "https://placehold.co/400x150/2C3E50/ECF0F1?text=E-Onus Back-Office"
+                    title: "E-Onus Back-Office Application",
+                    description: "Enables charging station companies to remotely manage their stations. Users can easily charge their vehicles by making appointments, thereby optimizing operations and increasing customer satisfaction.",
+                    technologies: ["Angular", "Node.js", "Tailwindcss", "MongoDB", "Stripe API", ".Net Core", "Deno.js", "Ag-Grid", "Chart.js"],
+                    image: "https://placehold.co/400x150/2C3E50/ECF0F1?text=E-Onus Back-Office"
                 },
                 {
-                    "title": "Dodo Jobs Application",
-                    "description": "Allows you to instantly reach legally compliant and verified professionals in every field you need in Germany.",
-                    "technologies": ["Angular", "Bootstrap", "ngneat", "Ng-Zorro", "MongoDB", ".Net Core"],
-                    "image": "https://placehold.co/400x600/2C3E50/ECF0F1?text=Dodo+Jobs"
+                    title: "Dodo Jobs Application",
+                    description: "Allows you to instantly reach legally compliant and verified professionals in every field you need in Germany.",
+                    technologies: ["Angular", "Bootstrap", "ngneat", "Ng-Zorro", "MongoDB", ".Net Core"],
+                    image: "https://placehold.co/400x600/2C3E50/ECF0F1?text=Dodo+Jobs"
                 },
                 {
-                    "title": "Auxilius Application",
-                    "description": "Auxilius is a financial software designed specifically for pharmaceutical and biotechnology (biopharma) companies. It simplifies the monetary management of clinical trials (R&D), one of the most complex and costly processes for these companies.",
-                    "technologies": ["Angular", "Tailwind", "AG-Grid", "GraphQL", "Chart.js"],
-                    "image": "https://placehold.co/600x400/2C3E50/ECF0F1?text=Auxilius"
+                    title: "Auxilius Application",
+                    description: "Auxilius is a financial software designed specifically for pharmaceutical and biotechnology (biopharma) companies. It simplifies the monetary management of clinical trials (R&D), one of the most complex and costly processes for these companies.",
+                    technologies: ["Angular", "Tailwind", "AG-Grid", "GraphQL", "Chart.js"],
+                    image: "https://placehold.co/600x400/2C3E50/ECF0F1?text=Auxilius"
                 },
                 {
-                    "title": "Travel Portal Application",
-                    "description": "A new generation online travel portal solution developed for travel agencies and tour operators.",
-                    "technologies": ["Angular", "Bootstrap", "Vue.js", "Karma", "Jest"],
-                    "image": "https://placehold.co/600x400/2C3E50/ECF0F1?text=Travel+Portal"
+                    title: "Travel Portal Application",
+                    description: "A new generation online travel portal solution developed for travel agencies and tour operators.",
+                    technologies: ["Angular", "Bootstrap", "Karma", "Jest"],
+                    image: "https://placehold.co/600x400/2C3E50/ECF0F1?text=Travel+Portal"
                 },
                 {
-                    "title": 'Tursab Tour Application',
-                    "description": 'Agency Software Website is a modern solution that digitizes travel agencies, boosting efficiency and customer satisfaction.',
-                    "technologies": ['Vue.js', 'Bootstrap','Karma','Jest'],
-                    "image": 'https://placehold.co/600x400/2C3E50/ECF0F1?text=Tursab+Tour',
+                    title: "Tursab Tour Application",
+                    description: "Agency Software Website is a modern solution that digitizes travel agencies, boosting efficiency and customer satisfaction.",
+                    technologies: ["Vue.js", "Bootstrap", "Karma", "Jest"],
+                    image: "https://placehold.co/600x400/2C3E50/ECF0F1?text=Tursab+Tour"
                 },
                 {
-                    "title": "Elektra-Web Hotel Management Application",
-                    "description": "A web-based and innovative hotel management system that unifies all your hotel's operational needs (online reservations, channel management, front office, POS, preliminary accounting) on a single platform.",
-                    "technologies": ["Angular", "Ag-Grid", "Bootstrap", "NodeJs", "SQL"],
-                    "demoLink": "https://app.elektraweb.com/login",
-                    "image": "https://placehold.co/600x400/2C3E50/ECF0F1?text=Elektra-Web"
+                    title: "Elektra-Web Hotel Management Application",
+                    description: "A web-based and innovative hotel management system that unifies all your hotel's operational needs (online reservations, channel management, front office, POS, preliminary accounting) on a single platform.",
+                    technologies: ["Angular", "Ag-Grid", "Bootstrap", "NodeJs", "SQL"],
+                    demoLink: "https://app.elektraweb.com/login",
+                    image: "https://placehold.co/600x400/2C3E50/ECF0F1?text=Elektra-Web"
                 },
                 {
-                    "title": 'ERS ECR CashRegister Application',
-                    "description": 'A user-friendly .NET application designed for dot-matrix printers, simplifying receipt issuance for financial transactions and invoices in establishments like restaurants and hotels.',
-                    "technologies": ['C#','Node.js','.Net'],
-                    "image": 'https://placehold.co/600x400/2C3E50/ECF0F1?text=ERS+ECR+CashRegister',
+                    title: "ERS ECR CashRegister Application",
+                    description: "A user-friendly .NET application designed for dot-matrix printers, simplifying receipt issuance for financial transactions and invoices in establishments like restaurants and hotels.",
+                    technologies: ["C#", "Node.js", ".Net"],
+                    image: "https://placehold.co/600x400/2C3E50/ECF0F1?text=ERS+ECR+CashRegister"
                 },
                 {
-                    "title": 'Elektraweb Park Automatisation Application',
-                    "description": 'An automation system for entertainment venues, managing sales, payments, and automated access from a single program. I integrate membership systems, handling prepayments, pricing, access authorization, and issuing member wristbands/cards.',
-                    "technologies": ['MSSQL','T-SQL'],
-                    "image": 'https://placehold.co/500x400/2C3E50/ECF0F1?text=Elektraweb+Park+Automatisation',
+                    title: "Elektraweb Park Automatisation Application",
+                    description: "An automation system for entertainment venues, managing sales, payments, and automated access from a single program. I integrate membership systems, handling prepayments, pricing, access authorization, and issuing member wristbands/cards.",
+                    technologies: ["MSSQL", "T-SQL"],
+                    image: "https://placehold.co/500x400/2C3E50/ECF0F1?text=Elektraweb+Park+Automatisation"
                 },
             ],
-            "githubText": "GitHub",
-            "liveDemoText": "Live Demo"
+            githubText: "GitHub",
+            liveDemoText: "Live Demo"
         },
-        "skillsPage": {
-            "title": "My Skills",
-            "skillCategories": [
+        skillsPage: {
+            title: "My Skills",
+            skillCategories: [
                 {
-                    "category": "IDEs",
-                    "icon": "Hammer",
-                    "items": ["WebStorm", "Rider", "Vue.js", "Visual Code", "Visual Studio", "SSMS", "Postman", "GitHub Desktop", "MongoDB Compass"]
+                    category: "IDEs",
+                    icon: "Hammer",
+                    items: ["WebStorm", "Rider", "Vue.js", "Visual Code", "Visual Studio", "SSMS", "Postman", "GitHub Desktop", "MongoDB Compass"]
                 },
                 {
-                    "category": "Programming Languages",
-                    "icon": "AppWindow",
-                    "items": ["JScript", "TScript", "C#", "C++", "Java"]
+                    category: "Programming Languages",
+                    icon: "AppWindow",
+                    items: ["JScript", "TScript", "C#", "C++", "Java"]
                 },
                 {
-                    "category": "Programming Frameworks",
-                    "icon": "Code",
-                    "items": [".Net Core", "NodeJS", "Spring Boot", "GraphQL", "Angular", "React",
+                    category: "Programming Frameworks",
+                    icon: "Code",
+                    items: [".Net Core", "NodeJS", "Spring Boot", "GraphQL", "Angular", "React",
                         "VueJS", "React-Native", "Bootstrap", "Tailwind", "ChakraUI", "Ngx",
                         "Antd", "MaterialUI", "AG-Grid", "Chart.js", "Canvas", "Apex Charts",
                         "AkitaJs", "ReduxJS", "Ngrx", "Elf", "JestJs", "Karma", "Cypress"
                     ]
                 },
                 {
-                    "category": "Tools & Others",
-                    "icon": "Info",
-                    "items": ["Git", "GitHub", "Docker", "Jira", "Agile/Scrum", "Figma"]
+                    category: "Tools & Others",
+                    icon: "Info",
+                    items: ["Git", "GitHub", "Docker", "Jira", "Agile/Scrum", "Figma"]
                 }
             ]
         },
-        "contactPage": {
-            "title": "Contact",
-            "contactFormTitle": "Contact Me",
-            "nameLabel": "Your Name and Surname",
-            "emailLabel": "Your Email Address",
-            "subjectLabel": "Subject",
-            "messageLabel": "Your Message",
-            "sendButton": "Send Message",
-            "sendingButton": "Sending...",
-            "successMessage": "Your message has been sent successfully! Thank you.",
-            "errorMessage": "An error occurred while sending the message. Please try again.",
-            "socialMediaTitle": "Social Media and Contact Information",
-            "emailText": "Email",
-            "phoneText": "Phone"
+        contactPage: {
+            title: "Contact",
+            contactFormTitle: "Contact Me",
+            nameLabel: "Your Name and Surname",
+            emailLabel: "Your Email Address",
+            subjectLabel: "Subject",
+            messageLabel: "Your Message",
+            sendButton: "Send Message",
+            sendingButton: "Sending...",
+            successMessage: "Your message has been sent successfully! Thank you.",
+            errorMessage: "An error occurred while sending the message. Please try again.",
+            socialMediaTitle: "Social Media and Contact Information",
+            emailText: "Email",
+            phoneText: "Phone"
         },
-        "footer": {
-            "copyright": "All Rights Reserved.",
-            "designBy": "Designed with Love using React and Tailwind CSS"
+        footer: {
+            copyright: "All Rights Reserved.",
+            designBy: "Designed with Love using React and Tailwind CSS"
         }
     }
 };
