@@ -6,7 +6,7 @@ import { useLanguage } from '../context/LanguageContext.jsx';
 const HomePage = () => {
     const { t } = useLanguage();
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center  rounded-lg py-16 md:py-24 px-6 md:px-12 bg-gradient-to-br from-gray-900 to-gray-800 mb-16 ">
+        <section id="home" className="min-h-screen flex items-center justify-center  rounded-lg py-16 md:py-24 px-6 md:px-12 opacity-90 bg-gradient-to-br from-gray-900 to-gray-800 mb-16">
             <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-24 max-w-7xl mx-auto ">
                 <div className="flex-1 text-center md:text-left">
                     <motion.h1

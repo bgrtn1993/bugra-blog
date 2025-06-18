@@ -6,7 +6,7 @@ import { useLanguage } from '../context/LanguageContext';
 const AboutPage = () => {
     const { t } = useLanguage();
     return (
-        <AnimatedPage id="about" direction="left" className="bg-gray-800 rounded-lg shadow-xl mb-16">
+        <AnimatedPage id="about" direction="left" className="bg-gray-800 rounded-lg shadow-xl mb-16 ">
             <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8">{t('aboutPage.title')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <motion.div

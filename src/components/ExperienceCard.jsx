@@ -5,7 +5,7 @@ const ExperienceCard = ({ position, company, duration, description, technologies
         <div className="bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-600">
             <h3 className="text-xl font-semibold text-teal-300">{position}</h3>
             <p className="text-gray-200 mt-1">{company} <span className="text-gray-400 text-sm">({duration})</span></p>
-            <ul className="list-disc list-inside text-gray-300 mt-4 space-y-2">
+            <ul className="list-disc ps-5 text-gray-300 mt-4 space-y-2">
                 {description.map((item, index) => (
                     <li key={index}>{item}</li>
                 ))}

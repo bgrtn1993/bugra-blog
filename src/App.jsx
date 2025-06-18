@@ -13,10 +13,14 @@ import {LanguageProvider} from "./context/LanguageContext.jsx";
 const App = () => {
     return (
         <LanguageProvider>
-            <div className="App bg-gray-900 text-gray-100 min-h-screen flex flex-col font-inter">
+            <div className="App  text-gray-100 min-h-screen flex flex-col font-inter">
                 <PageScrollIndicator />
                 <Header />
                 <main className="flex-grow pt-20">
+                    <video autoPlay loop muted className="video-background">
+                        <source src="/background.mp4" type="video/mp4" />
+                        Tarayıcınız video etiketini desteklemiyor.
+                    </video>
                     <HomePage />
                     <AboutPage />
                     <ExperiencePage />
