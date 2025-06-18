@@ -141,9 +141,15 @@ const localization = {
                 },
                 {
                     title: 'Travel Portal Uygulaması',
-                    description: 'Seyahat acenteleri ve tur operatörleri için geliştirilmiş yeni nesil bir online seyahat portalı çözümüdür',
-                    technologies: ['Angular', 'Bootstrap', 'Vue.js','Karma','Jest'],
+                    description: 'Seyahat acenteleri ve tur operatörleri için geliştirilmiş yeni nesil bir online seyahat portalı çözümüdür.',
+                    technologies: ['Angular', 'Bootstrap', 'Karma','Jest'],
                     image: 'https://placehold.co/600x400/2C3E50/ECF0F1?text=Travel+Portal',
+                },
+                {
+                    title: 'Tursab Tur Uygulaması',
+                    description: 'Acente Yazılım Sitesi, seyahat acentelerinin dijital dönüşümünü sağlayan, verimliliği artıran ve müşteri memnuniyetini yükselten modern bir çözümdür.',
+                    technologies: ['Vue.js', 'Bootstrap','Karma','Jest'],
+                    image: 'https://placehold.co/600x400/2C3E50/ECF0F1?text=Tursab+Tur',
                 },
                 {
                     title: 'Elektra-Web Otel Yönetim Uygulaması',
@@ -151,6 +157,18 @@ const localization = {
                     technologies: ['Angular', 'Ag-Grid', 'Bootstrap','NodeJs','SQL'],
                     demoLink: 'https://app.elektraweb.com/login',
                     image: 'https://placehold.co/600x400/2C3E50/ECF0F1?text=Elektra-Web',
+                },
+                {
+                    title: 'ERS ECR CashRegister Uygulaması',
+                    description: 'Nokta vuruşlu yazıcılar için tasarlanmış, restoran ve otel gibi işletmelerde finansal işlemler ve faturalar için makbuz basımını kolaylaştıran kullanıcı dostu bir .NET uygulamasıdır.',
+                    technologies: ['C#','Node.js','.Net'],
+                    image: 'https://placehold.co/600x400/2C3E50/ECF0F1?text=ERS+ECR+CashRegister',
+                },
+                {
+                    title: 'Elektraweb Park Otomasyon Uygulaması',
+                    description: 'Eğlence mekanları için satış, tahsilat ve otomatik geçişi tek programdan yöneten bir otomasyon sistemi. Üyelik entegrasyonu, ön ödeme, fiyatlandırma, yetkilendirme ve kart/bileklik basımı sağlıyorum.',
+                    technologies: ['MSSQL','T-SQL'],
+                    image: 'https://placehold.co/600x400/2C3E50/ECF0F1?text=Elektraweb+Park+Otomasyonu',
                 },
             ],
             githubText: "GitHub",
@@ -352,12 +370,30 @@ const localization = {
                     "image": "https://placehold.co/600x400/2C3E50/ECF0F1?text=Travel+Portal"
                 },
                 {
+                    "title": 'Tursab Tour Application',
+                    "description": 'Agency Software Website is a modern solution that digitizes travel agencies, boosting efficiency and customer satisfaction.',
+                    "technologies": ['Vue.js', 'Bootstrap','Karma','Jest'],
+                    "image": 'https://placehold.co/600x400/2C3E50/ECF0F1?text=Tursab+Tour',
+                },
+                {
                     "title": "Elektra-Web Hotel Management Application",
                     "description": "A web-based and innovative hotel management system that unifies all your hotel's operational needs (online reservations, channel management, front office, POS, preliminary accounting) on a single platform.",
                     "technologies": ["Angular", "Ag-Grid", "Bootstrap", "NodeJs", "SQL"],
                     "demoLink": "https://app.elektraweb.com/login",
                     "image": "https://placehold.co/600x400/2C3E50/ECF0F1?text=Elektra-Web"
-                }
+                },
+                {
+                    "title": 'ERS ECR CashRegister Application',
+                    "description": 'A user-friendly .NET application designed for dot-matrix printers, simplifying receipt issuance for financial transactions and invoices in establishments like restaurants and hotels.',
+                    "technologies": ['C#','Node.js','.Net'],
+                    "image": 'https://placehold.co/600x400/2C3E50/ECF0F1?text=ERS+ECR+CashRegister',
+                },
+                {
+                    "title": 'Elektraweb Park Automatisation Application',
+                    "description": 'An automation system for entertainment venues, managing sales, payments, and automated access from a single program. I integrate membership systems, handling prepayments, pricing, access authorization, and issuing member wristbands/cards.',
+                    "technologies": ['MSSQL','T-SQL'],
+                    "image": 'https://placehold.co/500x400/2C3E50/ECF0F1?text=Elektraweb+Park+Automatisation',
+                },
             ],
             "githubText": "GitHub",
             "liveDemoText": "Live Demo"
