@@ -19,6 +19,7 @@ const ProjectsPage = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true, amount: 0.3 }}
                         transition={{ duration: 0.7, delay: index * 0.1 }}
+                        className="flex items-stretch "
                     >
                         <ProjectCard
                             {...proj}

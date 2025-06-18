@@ -3,7 +3,7 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const ProjectCard = ({ title, description, technologies, githubLink, demoLink, image, githubText, demoLinkText }) => {
     return (
-        <div className="bg-gray-700 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-600 overflow-hidden">
+        <div className=" bg-gray-700 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-600 overflow-hidden">
             <img src={image} alt={title} className="w-full h-48 object-cover" />
             <div className="p-6">
                 <h3 className="text-xl font-semibold text-teal-300">{title}</h3>
